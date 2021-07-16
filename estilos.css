@@ -1,0 +1,51 @@
+@import url('https://bootswatch.com/4/superhero/bootstrap.min.css');
+
+body{
+    
+}
+
+#titulo{
+    font-family: 'Berkshire Swash';
+    font-size: 40px;
+}
+
+#inicio{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 400px;
+    background-color: rgba( 0, 0, 0, 0.5 );
+    border-radius: 5px;
+    padding-left: 55px;
+    /*width: 100%;*/
+    
+    
+}
+
+#login{
+    font-family: 'Alegreya Sans';
+}
+
+.login{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    background-color: floralwhite;
+    border-radius: 6px;
+    border: 2px solid black;
+    font-family: 'Alegreya Sans';
+}
+
+a{
+    font-size: 20px;
+    color: darkgray;
+}
+
+div {
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+}

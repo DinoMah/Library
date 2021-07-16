@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario de Login</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+        <style>
+        @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+        @import url('https://fonts.googleapis.com/css?family=Varela+Round');
+        </style>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        
+        <div><p id="titulo">Biblioteca Virtual</p><br>    
+        <img src="addUser.png" alt="">    
+        <p id="seccion">Nuevo Usuario</p>
+        
+          <form action="agregarUsuario.php" method="post">
+              <h2>Registro de usuario</h2>
+              <input class="login" type="text" placeholder="&#128272; Usuario" name="usuario"required><br><br>
+              <input class="login" type="password" placeholder="&#128272; Contraseña" name="clave" required><br>
+              <div>
+              <p class="tipo"><input type="radio" value="alumno" name="tipo">Alumno </p>
+              <p class="tipo"><input type="radio" value="admin" name="tipo">Administrador </p>
+              <p class="tipo"><input type="radio" value="cap" name="tipo">Capturista </p><br>
+              </div>
+              <input class="login" type="submit" value="Registrar">
+ 
+          </form>
+        </div>
+    </body>
+</html>
